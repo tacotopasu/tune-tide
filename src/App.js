@@ -9,8 +9,8 @@ function App() {
     <Router>
       <div class="min-h-screen bg-black text-white">
       <Routes>
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage/>}/>
+        <Route path="/" element={<HomePage/>}/>
       </Routes>
       <MusicPlayer/>
       </div>
